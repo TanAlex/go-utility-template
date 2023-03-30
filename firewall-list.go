@@ -21,7 +21,7 @@ func printUsage() {
 }
 
 func main() {
-	// projectID := "th-ttantest-lab-f440dd"
+	// projectID := "<your-project-id>"
 	// Define command-line flags.
 	projectP := flag.String("projectID", "", "GCP project ID")
 	// vpcName := flag.String("vpcName", "", "Name of VPC network to get firewalls for")
